@@ -74,7 +74,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,30 +86,8 @@ p {
     color:#ffffff
 }
 
-.benefit-brand,
-.benefit-cost,
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization,
-.social-media-marketing {
+.about-me,
+.contact-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,6 +126,10 @@ p {
     height: 300px;
 }
 
+#portfolio-1:hover {
+    transform: translateY(-2em);
+}
+
 #portfolio-2 {
     background: url("../images/istockphoto-1332167985-170667a.jpg");
     background-size: cover;
@@ -177,15 +159,15 @@ p {
     background-position: center;
 }
 
-.search-engine-optimization img,
+.about-me img,
 .portfolio img,
-.social-media-marketing img {
+.contact-me img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
+.about-me h2,
 .portfolio h2,
-.social-media-marketing h2 {
+.contact-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
