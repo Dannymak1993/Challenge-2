@@ -37,6 +37,21 @@ header {
     margin-left: 25px;
 }
 
+:root {
+    --main-color: #dfd6d6;
+    --other-color: rgb(197, 133, 188);
+}
+
+.header nav ul li a:hover{
+    color: var(--other-color);
+    transition: 1s ease;
+}
+
+.header nav ul li a:not(:hover) {
+    color: var(--main-color);
+    transition: 1s ease;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
