@@ -71,7 +71,7 @@ p {
 }
 
 .aside {
-    min-height: 134.5vh;
+    min-height: 133.5vh;
     margin-right: 10px;
     padding: 20px;
     /* border: 10px solid #ffffff; */
@@ -220,5 +220,5 @@ p {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 20px;
 }
