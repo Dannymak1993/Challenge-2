@@ -252,8 +252,8 @@ p {
 .contact-me,
 .portfolio,
 body {
-    background: hsl(7, 31%, 77%);
-    background-color: hsl(7, 31%, 77%);
+    background: #eceaf2;
+    background-color: #eceaf2;
 }
 
 .flex {
@@ -296,13 +296,13 @@ body {
      padding:10px;
 }
 .contact-me {
-      margin-top:15%;
-     padding: 0;
-     margin-left: 85px;
-     margin-right: 0;
-      width: 100%;
-      margin-bottom: 0;
-      font-size: 20px;
+    margin-top:20%;
+    padding: 0;
+    margin-left: 85px;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
 }
     
 .socials {
