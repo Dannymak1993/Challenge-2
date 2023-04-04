@@ -8,8 +8,9 @@ This project focuses on creating a website from scratch utilizing everything lea
 <!-- 
 screenshot -->
 
-Links to my Github repository: https://github.com/Dannymak1993/Challenge-2
-Link to my deployed website: https://dannymak1993.github.io/Challenge-2/
+[Github Page](https://dannymak1993.github.io/Challenge-2/)
+
+[Repository](https://github.com/Dannymak1993/Challenge-2)
 
 ## Credits
 
