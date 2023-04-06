@@ -10,9 +10,9 @@ This project focuses on creating a website from scratch utilizing everything lea
 
 ![alttext](./assets/images/screencapture-file-C-Users-Danny-Desktop-Coding-Homework-02-HW-Initial-Portfolio-Develop-index-html-2023-04-03-19_49_01.png)
 
-[Github Page](https://dannymak1993.github.io/Challenge-2/)
+[Github Page](https://github.com/Dannymak1993/Portfolio-The-Beginning)
 
-[Repository](https://github.com/Dannymak1993/Challenge-2)
+[Repository](https://dannymak1993.github.io/Portfolio-The-Beginning/)
 
 ## Credits
 
