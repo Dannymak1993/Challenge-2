@@ -99,7 +99,7 @@ p {
 }
 
 .aside {
-    min-height: 130vh;
+    min-height: 158vh;
     margin-right: 10px;
     padding: 20px;
     clear: both;
@@ -169,10 +169,10 @@ p {
 
 #portfolio-1 {
     flex-basis: 100%;
-    background: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    background: url("../images/Planned\ Perfection.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     height: 300px;
     transition: all 1s;
     -webkit-transition: all 1s;
@@ -195,31 +195,46 @@ p {
 }
 
 #portfolio-2 {
-    background: url("../images/pexels-alleksana-4271927.jpg");
-    background-size: cover;
+    flex-basis: 100%;
+    background: url("../images/Groovehub.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
+    height: 300px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
 }
 
-#portfolio-3 {
-    background: url("../images/pexels-alleksana-4271927.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#portfolio-2:not(:hover) {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
 }
 
-#portfolio-4 {
-    background: url("../images/pexels-alleksana-4271927.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#portfolio-2:hover {
+    transform: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
 }
 
-#portfolio-5 {
-    background: url("../images/pexels-alleksana-4271927.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+project-overlay {
+    position: relative;
+    height: 100%;
+}
+
+.project-overlay h2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
 }
 
 .about-me img,
@@ -244,6 +259,7 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 20px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 992px) {
@@ -296,13 +312,14 @@ body {
      padding:10px;
 }
 .contact-me {
-    margin-top:20%;
     padding: 0;
     margin-left: 85px;
     margin-right: 0;
     width: 100%;
     margin-bottom: 0;
     font-size: 20px;
+    display:flex;
+    flex-direction: column;
 }
     
 .socials {
